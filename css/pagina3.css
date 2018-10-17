@@ -1,16 +1,43 @@
 header{
-	width: 100%;
-	height: 100%;
-	margin: 0px auto;
-	max-width: 1200px;
+	font-size: 30px;
+	background: white;
+	text-align: left;
+}
+
+.a1{
+	margin-left: 5%;
+}
+
+input{
+	margin-left: 5%;
+}
+
+#name, #apellido, #email, #nameEmpr{
+	width:300px ;
+	
+}
+
+.todo{
+	content: "";
+	clear: both;
+	display: block;
+	max-width: 100%;
+}
+
+.logo1{
+    
+	width: 1170px ;
+}
+
+body{
+	background-color: #D4D4D4;
 }
 
 #container{
-	width: 100%;
-	height: 100%;
+    width: 90%;
 	margin: 0px auto;
-	max-width: 1200px;
-	background-color: #D4D4D4;
+max-width: 100%;
+	min-width: 780px;
 }
 
 .letra{
@@ -32,10 +59,17 @@ h1{
 }
 
 .p2{
-	   color: #6D6868;
+   color: #6D6868;
    font-size: 12px;
    text-decoration: none;
    display: inline;
+}
+
+.sa{
+	list-style: none;
+	text-align: left;
+	margin-left: 0.5px;
+
 }
 
 h1{
@@ -43,10 +77,16 @@ h1{
 	font-size: 30px;
 }
 
+h2{
+	font-size: 20px;
+	height: 15px;
+	display: inline-block;
+	margin-right: 30px;
+}
+
 .containerB{
 	max-width: 900px;
-	width: 10000px;
-	height: 1100px;
+
 	margin: 0px auto;
 
 }
@@ -65,23 +105,50 @@ legend{
 	float: left;
 }
 .menu ul li a{
-	padding: 10px 20px;
-	display: block;
+
+	display: inline-block;
 	color: white;
 	text-decoration: none;
+	list-style: none;
 }
 .menu ul li a{
 	background: #EA1212;
 	margin-left: 2%;
 }
 
+.politica{
+	display: block;
+}
+
 .boton:hover{
 	color: black;
+	padding: 5px;
 	-webkit-transition: height 4s linear;
 -moz-transition: height 4s linear;
 -ms-transition: height 4s linear;
 -o-transition: height 4s linear;
 transition: height 4s linear;
+}
+
+form{
+	height: 15%;
+}
+
+
+footer{
+	font-size: 20px;
+	background: #000000;
+	color: white;
+	text-align: left;
+	clear: both;
+	padding: 10px 5px;
+	border-top: 8px solid red;
+	width: 1500px auto;
+  
+}
+
+fieldset{
+	border-color: #EE49A6;
 }
 
 @media only screen and (max-width: 800px) {
@@ -91,6 +158,3 @@ transition: height 4s linear;
 }
 
 
-fieldset{
-	border-color: #EE49A6;
-}
