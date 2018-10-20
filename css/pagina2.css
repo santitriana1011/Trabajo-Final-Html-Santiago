@@ -32,9 +32,6 @@ body{
 }
 
 
-
-
-
 h1{
 	font-size: 50px;
 	text-align: left;
@@ -65,12 +62,6 @@ h2{
 	display: inline;
 }
 
-h3{
-	text-align: right;
-	color: #F13B9D;
-	display: inline;
-}
-
 .menu ul{
 	list-style: none;
 }
@@ -78,80 +69,109 @@ h3{
 	float: right;
 }
 .menu ul li a{
-	padding: 20px 3px;
-	display: block;
-	color: #F13B9D;
+	padding: 5px 15px 20px 25px;
+	display: inline-block;
+	color: #F354B2;
 	text-decoration: none;
+	text-align: center;
 	font-size: 25px;
-	padding-right: 15px;
-
 }
 .menu ul li a{
-	margin-right: 235px;
+	padding-right: 205px;
+	padding-bottom: 1% ;
+	padding-top: 1%;
+}
 
+h3{
+	text-align: right;
+	color: #F13B9D;
+	display: inline;
 }
 
 .caja1, .caja2, .caja3{
 	background-color: #605B5B;
 	color: white;
 	margin-left: 1%;
-	margin-right: 145px;
+	margin-right: 115px;
 	padding-right: 25px;
-	display: block;
 	float: right;
+	position: relative;
+	width: 80px;
+	height: 100px;
 }
 
 .numero1, .numero2, .numero3{
 	float: left;
 	border-right: 1px solid white;
 	font-size: 90px;
+	background-color: #605B5B;
 }
 
 .numero1{
-	color: #1BF935;
+
+	color: #2CD8EC; 
+	width: 80px;
+	height: 100px;
 	
 }
 
 .numero2{
-	color: #F2923D;
 	
+	color: #F2923D;
+	width: 80px;
+	height: 100px;
 }
 
 .numero3{
-	color: #2CD8EC;
-	
+
+	color: #1BF935;
+	width: 80px;
+	height: 100px;
 }
 
 .caja1{
-	box-sizing: content-box;
-	margin-right: 90px;
+	margin-right: 55px;
+	top: 100px;
 }
 
 .caja2{
-	box-sizing: content-box;
+	margin-right: 55px;
+	top: 100px;
 }
 
 .caja3{
-	box-sizing: content-box;
+	margin-right: 55px;
+	top: 100px;
 }
 
 table{
 	clear: both;
-	margin: 85px auto;
+	margin: 1px auto;
 }
 
-table tr td{
-	border-bottom: solid 1px #4E4D4D;
-	padding: 12px;
-	margin: 0px 10px;
+table tr {
+	padding: 4px;
+	margin:1px;
+}
+
+table td{
+	border-bottom: solid 1px #544E4E;
+	padding-top: 1px;
+}
+
+.tam{
+	text-align: left;
+
 }
 
 .capa{
 	width: 200px;
+	text-align: center;
 }
 
 .euros{
 	font-size: 25px;
+	text-align: center;
 }
 
 .botonFinal ul{
@@ -169,8 +189,8 @@ table tr td{
 }
 .botonFinal ul li a{
 	background: #F14198;
-	margin-left: 8%;
-	margin-right: 8%;
+	margin-left: 1%;
+	margin-right: 50%;
 	margin-bottom: 12%;
 }
 
